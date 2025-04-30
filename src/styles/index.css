@@ -1,11 +1,51 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body {
+    background: darkslategray;
+    color: white;
+    margin: 0;
+    padding-bottom: 100px; 
+  }
+  
+  .audio-player-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 5px;
+    background: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background: red;
+  }
+  
+  .controles {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: indigo;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
 
-*/
+  
